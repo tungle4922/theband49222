@@ -1,0 +1,63 @@
+/* Mobile  */
+@media (max-width: 740px) {
+    .s_full_width,
+    .s_col_full {
+        width: 100% !important; 
+    }
+
+    #nav > li {
+        display: block; /*giúp chỉ lớp 1 xếp thành hàng dọc*/
+    }
+
+    /* nút Home không bị tràn ra ngoài  */
+    #nav > li:first-child {
+        display: inline-block; 
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile_menu_btn {
+        display: block;
+    }
+
+    #header .search_btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .mobile_member_item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member_img {
+        width: 60%;
+    }
+
+    .map_section {
+        display: none;
+    }
+    
+    .contact_form {
+        margin-top: 16px;
+    }
+}
